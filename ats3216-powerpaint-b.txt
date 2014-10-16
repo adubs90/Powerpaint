@@ -1,0 +1,35 @@
+Assignment 4B - Powerpaint
+Executive Summary 
+TCSS 305: Programming Practicum, Autumn 2011
+
+Name: Alex Stringham
+UWNetID: ats3216
+Subversion Revision Number: 39
+
+Assignment Overview
+
+Powerpaint part B was our refined, fully working version of the powerpaint project. This time
+around, we had to implement the line, rectangle, and ellipse tools so that the user could draw
+using them. We also had to implement a grid option that layed out a grid that is 10 pixels by
+10 pixels. We used actions to switch between the different tools and menu options, and had to 
+make sure that the tools in the toolbar and the tools in the menu were synchronized by telling
+if they are selected or not.
+
+
+Technical Impression
+
+I don't know how many times I changed my mind on how to implement the rest of this assignment. 
+At first, I wanted to create seperate classes and packages for each tool, gui element(frame,
+panel, toolbar, and menubar),  and options. This, while much cleaner than the way I eventually
+ended up going, was too difficult for me to figure out, sadly. I couldn't figure out how to 
+synchronize all the actionlistners for the toolbar and menubar when everything was in different
+classes, so sadly i had to put them all in one. I was successful in putting everything together 
+though when it was all in one class. It made it easier to understand for me for some reason.
+The only bug, or glitch that I could find in my program was the Color chooser button on the 
+toolbar. For some reason, I can set the initial color by setting the button to my getDrawColor()
+method in my panel. It starts black so it looks great to begin with, but when I change a color, 
+it WILL NOT change for some reason. I tried various ways around this problem, but nothing seemed
+to work. Quite frustrating to say the least. Other than that, everything else should be working.
+I also added accelerator keys for everything in the menu and toolbar (just for kicks). Had to 
+spend some extra time on this one though because of how difficult it was. Will definitely apply 
+my extension to this assignment.

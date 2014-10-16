@@ -1,0 +1,34 @@
+10
+
+dir
+39
+svn+ssh://cssgate.insttech.washington.edu/home/INSTTECH/ats3216/svn/css305a11/ats3216-powerpaint/src
+svn+ssh://cssgate.insttech.washington.edu/home/INSTTECH/ats3216/svn/css305a11
+
+
+
+2011-12-02T06:42:44.835941Z
+39
+ats3216
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+646ce446-7b8d-4177-8feb-5dba27f77be4
+
+gui
+dir
+
+tools
+dir
+
